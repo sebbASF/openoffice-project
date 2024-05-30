@@ -144,14 +144,23 @@
   </div>
 </div>  </nav>
   <div id="contenta">
-<article>
+<section id="content" class="body">
   <header>
-    <h2>
+    <h2 class="entry-title">
       <a href="https://openoffice.apache.org/blog/good_news_libreoffice_is_integrating.html" rel="bookmark"
          title="Permalink to 'Good news: LibreOffice has integrated my SVG import feature'">'Good news: LibreOffice has integrated my SVG import feature'</a></h2>
  
   </header>
-  <p>A nice feature I have implemented for Apache OpenOffice 3.4 released in May 2012, the new native SVG Import (see <a href="https://blogs.apache.org/OOo/entry/native_svg_support_for_apache" title="here">here</a>), will make an appearance to the next LibreOffice version.  It replaces the former SVG import greatly improving user experience and
+  <footer class="post-info">
+    <time class="published" datetime="2012-11-14T13:51:52+00:00">
+      Wed 14 November 2012
+    </time>
+    <div class="category">
+        Category: <a href="https://openoffice.apache.org/category/blog.html">blog</a>
+    </div>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>A nice feature I have implemented for Apache OpenOffice 3.4 released in May 2012, the new native SVG Import (see <a href="https://blogs.apache.org/OOo/entry/native_svg_support_for_apache" title="here">here</a>), will make an appearance to the next LibreOffice version.  It replaces the former SVG import greatly improving user experience and
  removing dependencies of six external libraries, also benefiting 
 startup (a little bit). It has been integrated to the LibreOffice trunk for their 3.7 version recently (see <a href="http://cgit.freedesktop.org/libreoffice/core/commit/?id=44cfc7cb6533d827fd2d6e586d92c61d7d7f7a70" title="here">here</a>). This is also true for some more AOO features and bug fixes (e.g. the long missing LineCaps). These features are not yet promoted on the 3.7 feature page, but I hope it will be done as well and fancy as they usually do it for big features.<br/></p>
 <p>I am very happy about this, I write features at Apache for the 'public good', thus I intend them to be useful to as many users of the OpenOffice codebase as possible. It shows the flow of source between Apache OpenOffice and projects based on the general OpenOffice codebase thanks to the permissive Apache 2 License (<a href="http://www.apache.org/licenses/LICENSE-2.0.html" title="ALv2">ALv2</a>). I added my stuff to Apache with the goal to get it into all OpenOffice derivatives, and that's exactly what ALv2 allows, as this example shows. That and 'having a choice' is what OpenSource is about from my point of view. This example demonstrates how code flows freely from AOO
@@ -165,15 +174,8 @@ startup (a little bit). It has been integrated to the LibreOffice trunk for thei
 <p>In this model it is also common to commit back to the Apache project - not only because OpenSource is about doing this, but for simple complexity reasons. Even big companies have nowadays learned the lesson (sometimes the hard way) that it is nearly impossible to keep an own branch of software synched to the goodies coming from the source (and it's a waste of resources anyways). Maybe there are better (and bidirectional :-)) ways of collaboration in the future; a move to less-restrictive licenses seems already to happen, hand in hand with rebasing on Apache OpenOffice code. I would not want to be the guy to e.g. integrate the next big changes I'm working on for Apache OpenOffice (see <a href="http://wiki.openoffice.org/wiki/Aw080_documentation" title="here">here</a>, already more than 340.000 lines of diff).<br/></p>
 <p>For the advantage of all users, I encourage everyone interested in working on the OpenOffice codebase to draw his own conclusions. Mine are clear; help us at Apache or be so kind to release it on Apache, too. That's the way to reach the broadest possible user base for your feature. A lot of users (download numbers <a href="http://www.openoffice.org/stats/downloads.html" title="here">here</a>) will thank you for it :-)<br/></p>
 
-  <footer>
-    <p>Published: <time datetime="2012-11-14T13:51:52+00:00">
-      Wed 14 November 2012
-    </time></p>
-    <p>
-        Category: <a href="https://openoffice.apache.org/category/blog.html">blog</a>
-    </p>
-  </footer>
-  </article>
+  </div><!-- /.entry-content -->
+</section>
   </div>
 
   <footer class="navbar-expand-lg navbar-light bg-light">
