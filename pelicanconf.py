@@ -15,7 +15,10 @@ THEME = 'theme/openoffice'
 # Specify location of plugins, and which to use
 PLUGIN_PATHS = [ 'theme/plugins',  ]
 # If the website uses any *.ezmd files, include the 'asfreader' plugin
-PLUGINS = [ 'gfm', 'asfgenid',  ]
+PLUGINS = [ 'gfm', 'asfgenid', 'asfrun'  ]
+ASF_RUN = [ '/bin/bash show_environ.sh' ]
+ASF_POSTRUN = [ '/bin/bash show_environ.sh' ]
+
 # All content is located at '.' (aka content/ )
 PAGE_PATHS = [ 'pages' ]
 STATIC_PATHS = [ '.',  ]
