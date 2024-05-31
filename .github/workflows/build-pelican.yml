@@ -7,12 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # - uses: apache/infrastructure-actions/pelican@main
-      - uses: sebbASF/infra-actions/pelican@downdate
+      - uses: apache/infrastructure-actions/pelican@main
         with:
-          destination: 'asf-site-work'
+          destination: 'asf-site-work2'
           gfm: 'true'
-          # version: '4.9.0'
       - name: test
         run: |
           pelican --version
