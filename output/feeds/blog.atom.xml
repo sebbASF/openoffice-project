@@ -3735,4 +3735,592 @@ follow us on &lt;a href="http://www.facebook.com/ApacheOO"&gt;Facebook&lt;/a&gt;
 &lt;p&gt;Updating the website and the code to use this new branding will take some time.&amp;nbsp;&amp;nbsp; The Apache OpenOffice 3.4 release, for example, still has some places where it refers to "OpenOffice.org".&amp;nbsp; We hope to have this rebranding completed in our next major release.&lt;/p&gt;
 &lt;p&gt;Note: You will still continue to see references to OpenOffice.org in the context of older release.&amp;nbsp; For version 3.3.0 and earlier it is still proper to refer to them as OpenOffice.org, since they are pre-Apache.&amp;nbsp; But all new work at Apache will use the name Apache OpenOffice.&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>Where did the time go? (A look at the Apache OpenOffice (incubating) timeline)</title><link href="https://openoffice.apache.org/blog/an_apache_openoffice_timeline.html" rel="alternate"></link><published>2012-03-13T16:20:56+00:00</published><updated>2012-03-13T16:20:56+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2012-03-13:/blog/an_apache_openoffice_timeline.html</id><summary type="html">&lt;div align="center"&gt;
+&lt;p&gt;&lt;img src="../images/blog/an_apache_openoffice_timeline_email.png"/&gt;&lt;/p&gt;
+&lt;div align="left"&gt;
+&lt;p&gt;The above timeline shows just some of the accomplishments of the Apache OpenOffice project since we first started &lt;a href="http://incubator.apache.org/"&gt;incubation&lt;/a&gt; at Apache&lt;a href="http://wiki.apache.org/incubator/OpenOfficeProposal"&gt; last June&lt;/a&gt;.&amp;nbsp; I've arbitrarily categorized the items as Infrastructure, Community or Development, knowing full well that any such act of categorization is dubious at best.&amp;nbsp; There is a lot …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div align="center"&gt;
+&lt;p&gt;&lt;img src="../images/blog/an_apache_openoffice_timeline_email.png"/&gt;&lt;/p&gt;
+&lt;div align="left"&gt;
+&lt;p&gt;The above timeline shows just some of the accomplishments of the Apache OpenOffice project since we first started &lt;a href="http://incubator.apache.org/"&gt;incubation&lt;/a&gt; at Apache&lt;a href="http://wiki.apache.org/incubator/OpenOfficeProposal"&gt; last June&lt;/a&gt;.&amp;nbsp; I've arbitrarily categorized the items as Infrastructure, Community or Development, knowing full well that any such act of categorization is dubious at best.&amp;nbsp; There is a lot of overlap, and something I put under Infrastructure could arguably also be other categories as well.&amp;nbsp; In the end, it is one project, with many aspects, and the pieces work together.&lt;/p&gt;
+&lt;p&gt;So what does this timeline tell us, other than the obvious fact that we've been busy?&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Take a look at the box called "Removal of copyleft".&amp;nbsp; This is the work we did to get the OpenOffice.org code to conform to Apache policy regarding licensing.&amp;nbsp; In essence, Apache products are permissively licensed, so anyone is free to use them in open source or proprietary products.&amp;nbsp; So ensure that downstream consumers of Apache OpenOffice have maximum flexibility in that regard, and to encourage a broader ecosystem, we removed components that were incompatible with these goals. In most cases we replaced the copyleft modules with equivalent or superior libraries that were also permissive licensed.&amp;nbsp; That effort was a couple of months.&amp;nbsp; This is important to know, since we sometimes hear, or read on the web, the statement that the Apache OpenOffice has spent an inordinate amount of time removing or replacing copyleft components in OpenOffice.&amp;nbsp; But has the timeline above shows, this one-time cleanup effort actually took only a little time.&amp;nbsp; But it was time well spent.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;As the timeline shows, most of our attention on the project has been spent on community building and infrastructure migration efforts. We're not engaging in a race to see how fast we can come out with a release, or to show how quickly we can crank out minor releases.&amp;nbsp; A huge portion of our effort has been to ensure continuity for the many millions of users of OpenOffice.org, by far the most popular open source productivity suite.&amp;nbsp; The OpenOffice ecosystem is not just a download site (though it certainly includes a download site that continues to see nearly 10 million downloads/month).&amp;nbsp; The ecosystem includes mailing lists, support forums, wikis, bug databases, documentation, extensions and templates repositories, etc.&amp;nbsp; These public-facing and user-facing services are critical to the entire ecosystem, not only to Apache OpenOffice.&amp;nbsp; To give a sense of the magnitude of this interdependence, the libreoffice.org domain contains 13,281 links to webpages hosted on openoffice.org domains. &lt;/p&gt;
+&lt;p&gt;Oracle has kindly allowed us use of some legacy servers during the migration to Apache.&amp;nbsp; The last of these servers should be disconnected on or soon after March 16th.&amp;nbsp; At that point the Apache OpenOffice infrastructure will be entirely hosted by Apache, aside from the extensions and templates repositories which are graciously hosted by SourceForge.&amp;nbsp; So our migration is complete.&amp;nbsp; A round of thanks is due, from all sides, for the efforts of the Apache Infrastructure team and Apache OpenOffice volunteers who worked tirelessly to ensure that the OpenOffice web presence was preserved and can continue to be a valuable resource for OpenOffice users, as well as other projects based on the same codebase.&amp;nbsp; &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="blog"></category></entry><entry><title>Retirement of legacy openoffice.org email forwarding service</title><link href="https://openoffice.apache.org/blog/retirement_of_openoffice_org_email.html" rel="alternate"></link><published>2012-03-02T19:28:22+00:00</published><updated>2012-03-02T19:28:22+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2012-03-02:/blog/retirement_of_openoffice_org_email.html</id><summary type="html">&lt;p&gt;IF YOU HAVE AN OPENOFFCE.ORG EMAIL ADDRESS, PLEASE PAY ATTENTION TO THE INFORMATION IN THIS NOTE&lt;/p&gt;
+&lt;h3 id="background"&gt;&lt;a name="(Draft)PublicStatementonEmailForwarding-Background"&gt;&lt;/a&gt;Background&lt;a class="headerlink" href="#background" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As you may have heard, Oracle contributed the OpenOffice.org (OOo)&amp;nbsp; 
+code to Apache in June. As part of this move, we will lose access to the
+ servers that formally hosted the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;IF YOU HAVE AN OPENOFFCE.ORG EMAIL ADDRESS, PLEASE PAY ATTENTION TO THE INFORMATION IN THIS NOTE&lt;/p&gt;
+&lt;h3 id="background"&gt;&lt;a name="(Draft)PublicStatementonEmailForwarding-Background"&gt;&lt;/a&gt;Background&lt;a class="headerlink" href="#background" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As you may have heard, Oracle contributed the OpenOffice.org (OOo)&amp;nbsp; 
+code to Apache in June. As part of this move, we will lose access to the
+ servers that formally hosted the OpenOffice.org website and various 
+other online services associated with the project.&amp;nbsp; Fortunately, the 
+Apache OpenOffice project, working with the Apache Infrastructure Team, 
+has been able to migrate most of these services to new servers, hosted 
+by Apache.&amp;nbsp; This includes critical services like version control,
+ downloads, website, wiki, bug tracking, user forums, etc. However, the email
+ forwarding service will not be among the services we preserve. The 
+OpenOffice.org email forwarder will be terminated effective March 15th, 
+2012.&lt;/p&gt;
+&lt;h3 id="how-this-will-impact-you"&gt;&lt;a name="(Draft)PublicStatementonEmailForwarding-Howthiswillimpactyou"&gt;&lt;/a&gt;How this will impact you&lt;a class="headerlink" href="#how-this-will-impact-you" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Starting on March 15th, 2012, emails sent to openoffice.org email 
+addresses will stop forwarding.&amp;nbsp; Senders will receive a bounce 
+notification pointing them to an OpenOffice website with more 
+information on the termination of openoffice.org email forwarding.&amp;nbsp; No 
+personal information about you will be shared with anyone. &amp;nbsp; If the 
+sender already knows an alternative way to contact you, then they might 
+resend their email to an alternative email address, or contact you via 
+other means.&amp;nbsp; We cannot control this.&amp;nbsp; Many emails are automated, and there is no human at 
+the other end to react to such bounce notices.&amp;nbsp; In those cases you will 
+not receive the emails and may not even know that you have missed an 
+email.&amp;nbsp; So we recommend that you not rely on senders reacting to the 
+bounce notification. Instead you should proactively reach out to correspondents 
+to notify them that your email address is changing.&lt;/p&gt;
+&lt;h3 id="what-you-should-do"&gt;&lt;a name="(Draft)PublicStatementonEmailForwarding-Whatyoushoulddo"&gt;&lt;/a&gt;What you should do&lt;a class="headerlink" href="#what-you-should-do" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If you have an openoffice.org email address then you should take the following steps well in advance of March 15th, 2012:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contact those with whom you have shared your openoffice email 
+address and let them know to use a different address to contact you.&lt;/li&gt;
+&lt;li&gt;If you have subscribed to mailing lists using your openoffice.org 
+address, then unsubscribe from your openoffice.org address and 
+resubscribe with another address&lt;/li&gt;
+&lt;li&gt;If you have used your openoffice.org address as a registration 
+address for an online service, then log in to that account and change 
+your address.&lt;/li&gt;
+&lt;li&gt;If you list your openoffice.org email address on your webpage or in your profile page, then update that information.&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some special instructions for OpenOffice-related services:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To update the email address used with your Bugzilla account, follow the instructions &lt;a href="https://cwiki.apache.org/confluence/display/OOOUSERS/Update+OOo+Bugzilla+account+to+Apache+OpenOffice+Bugzilla"&gt;here&lt;/a&gt;.&lt;a class="external-link" href="https://cwiki.apache.org/confluence/display/OOOUSERS/Update+OOo+Bugzilla+account+to+Apache+OpenOffice+Bugzilla" rel="nofollow"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;To update the email address used with your OpenOffice.org wiki account, follow these instructions:
+&lt;pre&gt;&lt;code&gt;  &amp;lt;ol&amp;gt; 
+    &amp;lt;li&amp;gt;&amp;lt;a href="http://wiki.services.openoffice.org/wiki/Main_Page"&amp;gt;Log in&amp;lt;/a&amp;gt; to the wiki.&amp;lt;a rel="nofollow" href="http://wiki.services.openoffice.org/wiki/Main_Page" class="external-link"&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; 
+    &amp;lt;li&amp;gt;Select the &amp;amp;quot;my preferences&amp;amp;quot; link at the top of the page.&amp;amp;nbsp; You 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;should be seeing the "User Profile" tab by default; if not, select that
+tab.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Change your email address, and save your change.&amp;nbsp; A large notice will appear, about the confirmation email.&lt;/li&gt;
+&lt;li&gt;You will get an email at your new address.&amp;nbsp; You must click on the
+"confirm" link to complete the change.&amp;nbsp; You should see a wiki Special
+Page, confirming that your new address is verified.&lt;/li&gt;
+
+
+&lt;li&gt;If you are subscribed to a ezmlm mailing list, such as ooo-dev,
+ooo-users, or ooo-marketing, then you will need to unsubscribe from the
+list from your old address and resubscribe with your new address.&amp;nbsp; More information on working with the mailing lists can be found &lt;a href="http://incubator.apache.org/openofficeorg/mailing-lists.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you have an account on our &lt;a href="http://extensions.services.openoffice.org/"&gt;Extensions&lt;/a&gt; or &lt;a href="http://templates.services.openoffice.org/"&gt;Templates&lt;/a&gt; website, then please login to that account and follow the given instructions for converting your account over to the new SourceForge hosted authentication. If you have forgotten your password, you can reset your password, but you need to do that immediately, before March 16th.&amp;nbsp; Also, if you received an email from &lt;a href="mailto:communityteam@sourceforge.net"&gt;&lt;a href="mailto:communityteam@sourceforge.net"&gt;communityteam@sourceforge.net&lt;/a&gt;&lt;/a&gt; providing you with instructions to retain access to the OpenOffice Extensions and Templates website you can trust that source.&amp;nbsp; It is not a "phishing" attack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="for-more-information"&gt;&lt;a name="(Draft)PublicStatementonEmailForwarding-Formoreinformation"&gt;&lt;/a&gt;For more information&lt;a class="headerlink" href="#for-more-information" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You can read more about the current status of the migration effort on &lt;a href="https://cwiki.apache.org/confluence/display/OOOUSERS/OpenOffice.org+Migration+Status"&gt;this wiki page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Additional relevant information is published in our &lt;a href="http://blogs.apache.org/OOO/"&gt;project blog&lt;/a&gt; (which you are currently reading).&lt;a class="external-link" href="http://blogs.apache.org/OOO/" rel="nofollow"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you have questions, you can send them to our public user support 
+list at ooo-users@incubator.apache.org.&amp;nbsp; You can also subscribe to that 
+list by sending an email to ooo-users-subscribe@incubator.apache.org&lt;/p&gt;
+&lt;p&gt;-- The Apache OpenOffice Podling Project Management Committee&lt;/p&gt;
+&lt;p&gt;&lt;a class="external-link" href="http://incubator.apache.org/openofficeorg/" rel="nofollow"&gt;http://incubator.apache.org/openofficeorg/&lt;/a&gt;&lt;/p&gt; &lt;hr/&gt;
+</content><category term="blog"></category></entry><entry><title>Porting Apache OpenOffice (incubating) to FreeBSD -- Ready to test!</title><link href="https://openoffice.apache.org/blog/apache_openoffice_has_been_ported.html" rel="alternate"></link><published>2012-02-29T14:52:05+00:00</published><updated>2012-02-29T14:52:05+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2012-02-29:/blog/apache_openoffice_has_been_ported.html</id><summary type="html">&lt;p&gt;We are pleased to note that NAKATA, Maho and Pedro Giffuni have ported &lt;a href="http://incubator.apache.org/openofficeorg/"&gt;Apache OpenOffice&lt;/a&gt; to &lt;a href="http://www.freebsd.org/"&gt;FreeBSD&lt;/a&gt;.&amp;nbsp;&amp;nbsp; The results of their porting effort are now in the FreeBSD &lt;a href="http://www.freebsd.org/cgi/cvsweb.cgi/ports/editors/openoffice-3-devel/"&gt;ports tree&lt;/a&gt;, so everyone can easily build and use it.&amp;nbsp;&amp;nbsp; FreeBSD users are invited to help test this port and report bugs …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are pleased to note that NAKATA, Maho and Pedro Giffuni have ported &lt;a href="http://incubator.apache.org/openofficeorg/"&gt;Apache OpenOffice&lt;/a&gt; to &lt;a href="http://www.freebsd.org/"&gt;FreeBSD&lt;/a&gt;.&amp;nbsp;&amp;nbsp; The results of their porting effort are now in the FreeBSD &lt;a href="http://www.freebsd.org/cgi/cvsweb.cgi/ports/editors/openoffice-3-devel/"&gt;ports tree&lt;/a&gt;, so everyone can easily build and use it.&amp;nbsp;&amp;nbsp; FreeBSD users are invited to help test this port and report bugs.&lt;br/&gt; &lt;br/&gt; FreeBSD is a free operating system based on Berkeley's 4.4 BSD source release. The code base has undergone over thirty years of continuous development, improvement, and optimization by large number of individuals. There are approximately 400 FreeBSD committers (those who can commit to the source code repository).&amp;nbsp; Development is especially focused on networking, security, performance and porting applications (they have over 20,000 well-maintained applications).&amp;nbsp; FreeBSD is used as a platform for devices and products from many of the world's largest IT companies, including, Apple, Cisco, Juniper and NetApp.&amp;nbsp; It has broken ftp 
+performance records and powers important sites like Yahoo, Hotmail and 
+the Apache Software Foundation's infrastructure.&lt;br/&gt; &lt;br/&gt;
+Historically, the FreeBSD port of OpenOffice has been very active, stable and well maintained.&amp;nbsp; There are the legacy OpenOffice.org 3.3 and 3.4Beta ports, no longer being maintained, and the active version 3.4 port, for ongoing development.&amp;nbsp; Notably, Jung-uk Kim ported to amd64, and fixed many technical 
+issues, and Jack Low provided builds until development 
+migration to Apache.&lt;br/&gt; &lt;br/&gt;
+Maho@, Pfg@ and other volunteers are working with each other, and with the Apache OpenOffice project, in this work.&amp;nbsp; The FreeBSD team did not fork.&amp;nbsp; They are working as Apache OpenOffice committers, directly with the Apache project.&amp;nbsp; &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Technically, porting has not been very difficult.&amp;nbsp; It has required only small, almost trivial patches, since Linux and FreeBSD are 
+very similar.&amp;nbsp; MacOSX and FreeBSD also share many similarities which 
+has helped improve both ports.&amp;nbsp;&amp;nbsp; Porting to other BSDs would be easy as well,&amp;nbsp; 
+since the developers have marked their fixes by adding "FREEBSD" or "BSD" comments in the code, and they wrote up many Bugzilla issues. Many build fixes for other BSDs would be 
+same as those needed for FreeBSD's port.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Since the OpenOffice project migrated to Apache, upstreaming has become much easier than before.&amp;nbsp; Pfg@ joined the project and has pushed upstream over 30 patches.&amp;nbsp; Currently, Maho@ is concentrating on porting and consulting frequently with Pfg@.&amp;nbsp; Of course, Pfg@ not only pushes patches upstream, but also is actively working on porting.&amp;nbsp; Maho@ will commit directly to Apache's Subversion repository very soon.&amp;nbsp;&amp;nbsp; &lt;br/&gt; &lt;br/&gt; Final words: This is not the end.&amp;nbsp;&amp;nbsp; Maho@ and Pfg@ continue their work on porting.&amp;nbsp; Bug reports are always welcome to {pfg,&lt;a href="mailto:maho%7D@apache.org"&gt;maho}@apache.org&lt;/a&gt;.&amp;nbsp; And if you are interested in learning more about the FreeBSD port of Apache OpenOffice, you can join our mailing list: office@FreeBSD.org. &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Finally, please remember that porting to FreeBSD also is a benefit for all OpenOffice users, since it increases the overall portability of the code and provides another valuable testing environment.&lt;/p&gt;
+&lt;p&gt;Thanks, &lt;/p&gt;
+&lt;p&gt;Nakata Maho &lt;/p&gt;
+&lt;p&gt; &lt;img src="../images/blog/apache_openoffice_has_been_ported_Nakata_Maho.jpeg"/&gt;&lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>Native SVG support for Apache OpenOffice 3.4 (Incubating)</title><link href="https://openoffice.apache.org/blog/native_svg_support_for_apache.html" rel="alternate"></link><published>2012-01-19T11:02:42+00:00</published><updated>2012-01-19T11:02:42+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2012-01-19:/blog/native_svg_support_for_apache.html</id><summary type="html">&lt;p&gt;Apache OpenOffice 3.4 supports embedding SVG graphics using a newly created native SVG interpreter implementation. I want to talk about the advantages and some internals of this solution and the necessary changes done.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;One reason to do this was IP clearance. It allowed removal of six GPL/LGPL libraries …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Apache OpenOffice 3.4 supports embedding SVG graphics using a newly created native SVG interpreter implementation. I want to talk about the advantages and some internals of this solution and the necessary changes done.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;One reason to do this was IP clearance. It allowed removal of six GPL/LGPL libraries, namely 
+librsvg, libcroco, libgsf, gdk-pixbuf, glib, and pango gettext. These 
+were used as an external pixel-based renderer. The new SVG uses an own internal 
+interpreter in a new library and some new UNO API services. IP clearance was no interesting task to do, but it leaded to effects like here with SVG; the install sets get smaller (less libraries to deliver), the app needs less libraries (startup, memory, runtime) and the internal handling of SVG vector data is completely vector-graphic oriented.&lt;br/&gt; &lt;br/&gt;There were also ODF-compatible File Format adaptions needed, more concrete the in ODF already contained and described multi-image support. In ODF, the original SVG is now embedded to the 'Pictures' folder inside the ODF file as one 
+would expect from such a feature and can be easily extracted (unzip the ODF file and there you are). There is also a Png file 
+written as replacement image. The draw:frame is now multi-image 
+capable (as the spec allows). In the case of a SVG it writes a good 
+quality Png and the original SVG as draw:image elements. Since older 
+(and other) office versions are only capable of loading a single (and 
+thus the first) image, the Png is written first. This allows file 
+exchange with other and older offices without breaking backward compatibility and/or ODF file exchange. At load time, multi-image support 
+will choose the best quality graphic available for further work, e.g. 
+preferring vector format over pixel format, pixel format with 
+alpha over non-alpha and lossless formats over those with 
+losing info (you get the idea). Other ODF implementations (e.g. a 
+viewer) may just use the pixel graphic available. Multi-image support is 
+independent from SVG in principle and will work with all image file 
+formats. This is implemented for the Drawinglayer graphic object (used 
+in Draw/Impress/Calc) and the Writer graphic object (used in Writer).
+&lt;br/&gt; &lt;br/&gt;SVG is no longer interpreted each time it needs to be 
+rendered (unavoidable by an external renderer), but only once transformed to a 
+sequence of primitives (UNO API graphic atoms). That sequence is then used for all outputs, 
+transformed to the graphic object's form and viewport. The 
+sequence itself is completely view-independent. Internally, it is reused 
+and thus it makes no difference if you have your SVG graphic added once 
+or multiple times to your document. This is also true for saving, so always only one copy of your added SVG will be written (the same is true for the replacement 
+Png image). Both, the sequence of primitives and the replacement 
+image, are created using new UNO API services. One is capable of 
+converting an io::XInputStream with SVG content to a sequence of primitives, the other is 
+able to convert every sequence of primitives to a rendering::XBitmap 
+with given DPI and discrete sizes (pixels, with automatic resolution 
+reduction to a given maximum square pixel count to be on the safe side). This will be useful 
+for other purposes, too, since it creates a fully alpha-capable 
+representation of anything in primitive format to use as e.g. sprite.
+&lt;br/&gt; &lt;br/&gt;For all graphic processing the created vector graphic in form 
+of a sequence of primitives is used. This means that you will get best 
+quality in all zoom situations and all resolutions. This is also true 
+for all exports, e.g. printing or PDF export which also uses the vector 
+format. With an external renderer, it is unavoidable to use bitmaps with 
+discrete solution in those cases, looking bad when zooming and needing more space in most cases as vector data. There is one caveat since not all 
+program paths already use primitives; some will use the internal MetaFile 
+format in-between (One more reason for more reworks to primitive usages 
+in the future).
+&lt;br/&gt; &lt;br/&gt;I implemented most SVG features from SVG 1.1, but not yet 
+using animations or interactions (but possible in the future due to an 
+own interpreter, impossible with an external SVG renderer). It supports 
+all geometric SVG forms. It supports SVG gradients (using a new primitive 
+for this which will be reused when we add SVG gradients to 
+SdrObjects one day), these have a resolution-dependent low-level format 
+to not waste runtime on low resolutions. It supports masks, clipPath, markers, linked content, embedded graphics or SVG (intern, extern, 
+base64), SVG use nodes, text, text on curve and patterns. It does not yet 
+support filters, color profiles, embedded scripts, interactions and 
+linking. These can be added when needed, most of them will need to 
+implement new primitive types (e.g. filtering) which would be useful for the future
+anyways.
+Especially interesting is the possibility to later add SVG animation import to GraphicObjects for Impress.&lt;br/&gt; &lt;br/&gt;Some side effects: I had to fix cropping (unified with new primitive) which 
+works now also for mirrored graphics (never worked) and quite some other 
+stuff. We are prepared for SVG gradients as possible future feature (we 
+can already render them now). You can work with an added SVG as with a normal GraphicObject; crop it, break it (to SdrObjects, currently limited to the 
+transfer over the old MetaFile format, though). You can convert an 
+inserted Tux to 3D, you can bend the SVG in vector quality in Draw. It 
+is possible to directly export the original SVG again by selecting the 
+object and using 'Save as Picture...' from the context menu. You can add text, line style, fill 
+style, pretty much the same as most other graphic objects. You can add 
+shadow which casts shadow for the SVG graphic itself as expected (also not possible with an 
+external renderer).
+&lt;br/&gt; &lt;br/&gt;This is a bigger change, but most stuff is isolated in the 
+two mentioned services. There will be errors (I'm too long a programmer 
+to deny that :-)), but I tried to be as careful as possible. I already got some help from other community members and fixed some reported bugs (kudos to all testers and bug writers), but to find 
+the rest, your help is appreciated. Please feel free to play around with any 
+SVG you can find in current AOO 3.4 builds and report problems early in the &lt;a href="https://issues.apache.org/ooo/"&gt;Apache bugtracker&lt;/a&gt;!
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://eric.bachard.org/news/index.php?post/2011/12/03/In-progress-%3A-native-support-of-the-SVG-graphic-format-in-Apache-OpenOffice.org"&gt;Here&lt;/a&gt; is another blog entry about an early version of this feature.&lt;br/&gt;And &lt;a href="https://cwiki.apache.org/confluence/display/OOOUSERS/AOO+3.4+Unofficial+Developer+Snapshots"&gt;here&lt;/a&gt; are some developer snapshots of AOO 3.4 when you want to check it out. Be aware that these are AOO 3.4 Unofficial Developer Snapshots; these are intended to be used for early testing by other community volunteers.
+  They have no release quality and should not be installed in a 
+production environment.  Developer snapshots can be unstable and are 
+expected to have bugs.  &lt;/p&gt;
+&lt;p&gt;Regards,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Armin&lt;br/&gt;&lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>'The Community Forum: New Year Status'</title><link href="https://openoffice.apache.org/blog/the_community_forum_new_year.html" rel="alternate"></link><published>2012-01-12T00:00:00+00:00</published><updated>2012-01-12T00:00:00+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2012-01-12:/blog/the_community_forum_new_year.html</id><summary type="html">&lt;p&gt;After 4 years of existence, the &lt;a href="http://user.services.openoffice.org/"&gt;Community Forum&lt;/a&gt; has moved on the Apache Software Foundation (ASF) servers at the end of October 2011 (see &lt;a href="https://cwiki.apache.org/confluence/display/OOOUSERS/Changes+integrate+the+forums+into+the+AOOo+project"&gt;details&lt;/a&gt;).
+ Here are some figures about how we are doing on the English forum. We will try to make this kind of report on a monthly …&lt;/p&gt;</summary><content type="html">&lt;p&gt;After 4 years of existence, the &lt;a href="http://user.services.openoffice.org/"&gt;Community Forum&lt;/a&gt; has moved on the Apache Software Foundation (ASF) servers at the end of October 2011 (see &lt;a href="https://cwiki.apache.org/confluence/display/OOOUSERS/Changes+integrate+the+forums+into+the+AOOo+project"&gt;details&lt;/a&gt;).
+ Here are some figures about how we are doing on the English forum. We will try to make this kind of report on a monthly basis &lt;a href="http://user.services.openoffice.org/en/forum/viewtopic.php?f=50&amp;amp;t=46497"&gt;in the forum&lt;/a&gt; and perhaps quarterly on the blog.&lt;br/&gt; &lt;/p&gt;
+&lt;p&gt;Please remember that the forum is managed by a group of users helping other users for free and on their spare time.&lt;br/&gt; &lt;br/&gt;
+Some basics:&lt;br/&gt;&lt;/p&gt;
+&lt;div class="im"&gt;&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;
+The number of posts, members and topics is taken from the phpBB information bottom of main index page&lt;/li&gt;
+&lt;li&gt;Solved topics are counted in all the forums except admin and archives sections (not visible to standard users)&lt;/li&gt;
+&lt;li&gt;
+Note that the ratio solved topics vs. total topics is slightly biased 
+since the topics in the archives and admin sections are counted (in 
+phpBB statistics) but not the solved ones (custom search). However, 
+there are less than 550 topics there (in more than a 40,000 grand total,
+ so less than 1.5%). These last figures shouldn't change very much since
+ the private sections are not very active.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;br/&gt;
+Here it is (since the solved topics is a new metric, there is only one point for the moment).&lt;/p&gt;
+&lt;p&gt;&lt;img src="../images/blog/the_community_forum_new_year_metric.png"/&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;
+The blue line (number of posts) is not that important, it just shows that the trend is consistent with the other metrics.&amp;nbsp; The most interesting statistics are the red lines for the members and 
+the topics (with triangles, giving the time when the figures have been 
+recorded). Note that the ratio topics vs. members is 0.9 for the English
+ forum and above 1.5 for the French and Japanese forums. We tend not to 
+be too harsh for the rules on the English section and topics are not 
+often split when different users ask questions (still related of course)
+ in the same thread.&lt;br/&gt; &lt;br/&gt;
+Activity has a slightly higher slope during the first 2 years. It may be
+ linked to the building of the knowledge database. Once the main issues 
+and common questions have been discussed, users find their answers more 
+and more easily with a mere search, hence less topics needed.&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+Neither the release of LibreOffice (Oct 2010), nor the move to the ASF 
+servers (Oct 2011) have changed anything for the activity.&lt;br/&gt; &lt;br/&gt;
+The decrease in the number of members (end of 2011) is linked to the 
+cleaning of banned users. They had just been banned until now but to 
+keep only the "real users", their account has been deleted (nearly 
+1800). This was the first cleaning ever done from the launch of this 
+forum 4 years ago. 1550 of them had been identified as spammers because 
+of their post(s). 250 were passive spam (link in signature or interest 
+field of the profile, without any post).&lt;br/&gt; &lt;br/&gt;
+The ratio of the solved topics is rather good: 14,000 solved (green 
+triangle) in 41,000 (red triangles), that makes more than 1 in 3 (all 
+users don't bother to tag their topic as solved).&lt;br/&gt; &lt;br/&gt;
+For the record, last quarter has been in line with the rest: 2100 new 
+users from Oct 1st to end of this year, meaning 1800 new topics.&lt;br/&gt;
+As for the spam, we have had 1800 users in 1500 days, it makes 1.21 
+spammer a day, still rather low, thanks to the registration process 
+(hard to cheat for bots).&lt;br/&gt; &lt;br/&gt;
+Last figures: 2011 has shown an increase in the max number of online 
+users along the months. Peak reached 232 beginning of October. The 
+counter has been reset on Jan 1st 2012 and is already at 214, proving 
+the audience is still there.&lt;/p&gt;
+&lt;p&gt;Some words about the team. Let's not forget Terry Ellison who was the 
+main maintainer of the forum until the move to Apache Software 
+Foundation servers. His huge involvement has made it possible for both a
+ clean running of the forum during 4 years, making it a great place for 
+those needing/providing help, and contributing to the transfer of the 
+forum to the ASF servers with a minimal impact for the users.&lt;img class="ajT" src="https://mail.google.com/mail/images/cleardot.gif"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Hagar Delest,&lt;br/&gt;
+On the behalf of the Forum Volunteers&lt;/i&gt;&lt;br/&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="blog"></category></entry><entry><title>Features for GraphicObjects and OLEObjects</title><link href="https://openoffice.apache.org/blog/features_for_graphicobjects_and_oleobjects.html" rel="alternate"></link><published>2012-01-11T15:42:20+00:00</published><updated>2012-01-11T15:42:20+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2012-01-11:/blog/features_for_graphicobjects_and_oleobjects.html</id><summary type="html">&lt;p&gt;I just wanted to send some notes about added features which are part of AOO3.4 version. This one is actually the result of fixing tasks &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=118558" title="#118558#"&gt;#118558#&lt;/a&gt;, &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=118485" title="#118485#"&gt;#118485#&lt;/a&gt;, &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=108221" title="#108221#"&gt;#108221#&lt;/a&gt; and &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=67705" title="#67705#"&gt;#67705#&lt;/a&gt; which are all about GraphicObjects, OLEObjects (OLE means Object Linking and Embedding) and their geometrical attributes and properties. You …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I just wanted to send some notes about added features which are part of AOO3.4 version. This one is actually the result of fixing tasks &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=118558" title="#118558#"&gt;#118558#&lt;/a&gt;, &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=118485" title="#118485#"&gt;#118485#&lt;/a&gt;, &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=108221" title="#108221#"&gt;#108221#&lt;/a&gt; and &lt;a href="https://issues.apache.org/ooo/show_bug.cgi?id=67705" title="#67705#"&gt;#67705#&lt;/a&gt; which are all about GraphicObjects, OLEObjects (OLE means Object Linking and Embedding) and their geometrical attributes and properties. You may take a look at the tasks if you are interested in details, here I want to describe the benefits.&lt;/p&gt;
+&lt;p&gt;GraphicObjects are used when you insert a picture (pixel and vector data) or convert something to it. They already supported the full attribute set, so line style, fill style, text and shadow are possible. Geometrically, they could be transformed widely, but could not be sheared. Because now the content of GraphicObjects is displayed using primitives (and these are fully transformable) it is possible to also use shear and thus now completely support all geometrical transformations used in the office.&lt;/p&gt;
+&lt;p&gt;More interesting is that this is also true for OLEObjects, thus I added all these possibilities to OLEObjects of any kind, not only to our own internal OLEObjects (e.g. Chart, mathematical formula), but all possible external OLEObjects. These can now have line styles, fill styles, text and shadow and can be fully transformed. It is also possible to convert them to GraphicObjects which is the base for converting them to something else. Thus, you may now slant or distort OLEObjects, convert them to GraphicObjects, make geometrical modifications like merge/subtract/intersect with other objects or even convert them to 3D objects.&lt;/p&gt;Some of the possible changes may lead too far for daily use, but some are pretty useful. It is now e.g. possible to add a mathematical formula and position it somewhere vertically by rotating it 90 degrees. It is possible to rotate chart OLEObjects themselves to get chart displays which the chart itself does not directly support. It is also useful to add a frame to a chart. With using the text offset it is also possible e.g. to add text to the OLEObject and move the text outside the object to get a caption. I leave more possibilities to your imagination... 
+  &lt;p&gt;Some examples:&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="../images/blog/features_for_graphicobjects_and_oleobjects_types.jpeg"&gt;
+&lt;img alt="example.jpg" src="../images/blog/features_for_graphicobjects_and_oleobjects_types.jpeg"/&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;(a) Math OLEObject rotated 90 degrees, blue filled and with border&lt;br/&gt;(b) Chart OLEObject with gradient fill, border and object text as caption&lt;br/&gt;(c) Same chart without fill, 90 degree rotation and shadow&lt;br/&gt;(d) Chart bend in 2D, converted to GraphicObject (no longer an OLEObject)&lt;br/&gt;(e) Chart OLEObject converted to 3D (only for demonstration, not too nice to view...)&lt;br/&gt;(f) The math OLEObject, converted and bent, fill removed&lt;/p&gt;
+&lt;p&gt;I hope you got an impression; I'm not the designer guy, so excuse the examples.&lt;/p&gt;
+&lt;p&gt;Regards,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Armin&lt;br/&gt;&lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>OpenOffice Grandfather's Private Thoughts</title><link href="https://openoffice.apache.org/blog/openoffice_grandfather_s_private_thoughts.html" rel="alternate"></link><published>2011-12-27T17:55:52+00:00</published><updated>2011-12-27T17:55:52+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2011-12-27:/blog/openoffice_grandfather_s_private_thoughts.html</id><summary type="html">&lt;style type="text/css"&gt;
+	&lt;!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		A:link { so-language: zxx }
+	--&gt;
+	&lt;/style&gt;
+&lt;p style="margin-bottom: 0in;"&gt;I sent out a similar email to our mailing list before
+Christmas and before I took a short break to relax with my family and
+friends. But it's maybe worth sharing with a broader audience
+here on the …&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;
+	&lt;!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		A:link { so-language: zxx }
+	--&gt;
+	&lt;/style&gt;
+&lt;p style="margin-bottom: 0in;"&gt;I sent out a similar email to our mailing list before
+Christmas and before I took a short break to relax with my family and
+friends. But it's maybe worth sharing with a broader audience
+here on the blog.&lt;/p&gt;
+&lt;p style="margin-bottom: 0in;"&gt;Let me first tell you something about
+me (Juergen Schmidt=jsc) and to explain the title of this blog. I have been involved in the
+OpenOffice project since the beginning and have worked on the source
+code before when I started to work for StarDivision in 1997. So I can
+for sure argue that I am one of &lt;b&gt;many&lt;/b&gt; grandfathers of the
+OpenOffice project and that the last year or better the last 16 month were
+not the most brilliant in the long and successful history of the
+OpenOffice project.  
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0in;"&gt;A lot of misunderstanding and
+miscommunication led to confusion by our users and before we start
+in a challenging new year I would like to share some thoughts with
+you about the last months, my private expectations, and my wishes for
+the next year. &lt;br/&gt;&lt;br/&gt;Oracle's announcement to stop their investment
+in OpenOffice.org was a shock for me. Well the reason is obvious, I
+was paid by Oracle and worked on this project. The people who know me
+from the past know that I am a 100% OpenOffice.org guy and I always
+appreciated to work on this project and together with our community.
+I always felt as part of the overall community. I know the reasons
+that were responsible for the LibreOffice fork and the split of the
+community and I have to confess that I can understand it. But I
+didn't like how it was done. If Oracle would have done this step 6
+month earlier I am sure we wouldn't have this fork and we wouldn't
+have this split of the community. We would potentially still have the
+go-oo fork which was the foundation for LibreOffice but that is
+something different. Anyway it is as it is at the moment and we will see
+how it moves forward in the future. &lt;br/&gt;&lt;br/&gt;The grant to Apache was
+at least the appropriate signal that OpenOffice.org as a project will
+never die. The brand is too big and too important, the opportunities
+around the product and the overall eco-system are great and I am very
+sure that the project will continue and will be hopefully shining
+brighter than before. &lt;br/&gt;&lt;br/&gt;But a lot of work was and still is in
+front of us. We had to deal with a lot of things in parallel where
+other derivative projects didn't had to deal with at least not in public. We had to migrate the whole OpenOffice.org infra-structure to
+Apache and had to ensure that it worked. I think we were very
+successful here and have migrated nearly everything we need from a
+technical perspective.&lt;/p&gt;
+&lt;p style="margin-bottom: 0in;"&gt;Our mission was to migrate as much as
+possible of the available stuff on &lt;a href="http://www.openoffice.org/"&gt;www.openoffice.org&lt;/a&gt;
+and at least save it for later use. I think we did it! Thanks to all
+who made this possible. And we can concentrate in the future on some
+structural and conceptual redesign of the main portal page
+&lt;a href="http://www.openoffice.org/"&gt;www.openoffice.org&lt;/a&gt; to
+provide the information to our users that they need to find the
+product, to find more information like help, discussion forums, and to
+find the way in the community if they want to do more etc. &lt;br/&gt;&lt;br/&gt;We
+couldn't simply use the code as it was and could continue with the
+development as in the past because of the different license. A huge
+challenge that is still ongoing and where I had many problems at
+the beginning. It is not easy to explain why you remove something and
+replace it with something new that provide the same functionality but
+is under a more appropriate license. It's simply boring work and no
+developer really likes it. But is a prerequisite for Apache and in the
+end it is better for our eco system because the Apache license is
+much friendlier for business usage as any other open source license.
+As an individual developer I don't care too much about all the
+different open source licenses, as long as the work I do is good for
+the project and in the end for our users. But I learned that the
+Apache license can be a door opener for more contributors and more
+engagement of companies. I think that is important and I am confident
+that it will help to drive our project forward. &lt;br/&gt;&lt;br/&gt;And not
+everything is bad. With the IP cleanup we really cleaned up many
+things and Armin's replacement for the svg import/export is the best
+solution we ever had for OpenOffice and with the biggest potential
+for further improvements. All this is really motivating for the
+future! &lt;br/&gt;&lt;br/&gt;Well we had a lot of noise and communication problems
+on our mailing lists and I think we missed transmitting the message
+that OpenOffice.org has found a new home under the Apache foundation
+and we have missed communicating the progress we have made in the
+pubic. &lt;i&gt;We can do much better in the future!&lt;/i&gt; And I am looking forward
+to working with all of you on this communication part in the future. We
+don't have to be shy, we work on a great project with a great product
+and we should have enough to communicate and to share in the public
+(not only on our mailing list but on all the modern and very useful
+media like Facebook, Google+, twitter, ...) &lt;br/&gt;&lt;br/&gt;For the next
+year I expect that we find our way to guide and control our project a
+little bit better. I expect our first release early next year and
+hopefully a second one later in the year where we can show that we are
+able to drive the project forward and that we are able to create and
+establish a vibrant and living community. &lt;br/&gt;&lt;br/&gt;I wish that we can
+gain trust in the project and in the Apache way and that it is a good
+move forward. Our users simply want the best free, open source office
+productivity suite and they don't care about the different licenses.
+Enterprise users would like to see a huge and working community with
+the participation of a lot of different companies or at least their
+employees working on the project. We all know that such a huge and
+successful project can only work if we have individual community
+members as well as full-time community members. Important is the &lt;b&gt;WE&lt;/b&gt;
+and the &lt;b&gt;TOGETHER&lt;/b&gt; that makes open source projects successful.
+&lt;br/&gt;&lt;br/&gt;I heart voices and read emails where people said that Apache
+is not able to manage such a huge end user oriented project with all
+the necessary things. A strong statement, isn't it. At the beginning I have to confess that I also had doubts and wasn't sure. But as I
+have mentioned in an earlier post on our mailing list, I have seen and got
+the necessary signals over time that Apache is willing to listen and
+is open for changes as well if they make sense for the overall
+success of our project and if these changes are aligned with the
+overall Apache principles. And I think that is fair enough for all.
+&lt;br/&gt;&lt;br/&gt;The move to Apache is a big challenge for all of us. Apache
+had many very successful projects but none of these projects has
+such a huge end-user focus like OpenOffice. And of course OpenOffice
+is no small or new project. No it is one of biggest and most
+successful open source projects ever. And the migration was and is
+not easy. But we the community can do it, we as individuals,
+everybody can help and we together will do it! &lt;br/&gt;&lt;br/&gt;And the Apache
+way and the Apache license have proven in the past and with many
+successful projects that it is a good way and a good license to
+achieve this. 
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0in;"&gt;For our users I wish that press people
+will do a better job in the future to research facts and stories
+better or if they prefer to write articles based on first-hand
+information that they contact the Apache OpenOffice project
+directly. We are here and can help with information! That will
+definitely help to avoid further confusion about the future of
+OpenOffice.&lt;/p&gt;
+&lt;p style="margin-bottom: 0in;"&gt;Enough from me for now and I hope that I haven't bothered you with my private thoughts. I wish you all a
+happy new year, enjoy these days, take your own break too, load your
+batteries for our next challenge in 2012. &lt;br/&gt;&lt;br/&gt;Regards &lt;br/&gt;&lt;br/&gt;Juergen
+&lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>OpenOffice.org Migration -- The Community Forums</title><link href="https://openoffice.apache.org/blog/openoffice_org_migration_the_community.html" rel="alternate"></link><published>2011-11-18T01:05:00+00:00</published><updated>2011-11-18T01:05:00+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2011-11-18:/blog/openoffice_org_migration_the_community.html</id><summary type="html">&lt;blockquote&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p align="left"&gt;&lt;em&gt;The &lt;a href="http://user.services.openoffice.org/" title="Link to the 10-language OpenOffice.org Community Forums"&gt;OpenOffice.org Community Forums&lt;/a&gt; have been successfully migrated to operation under the Apache OpenOffice.org podling.&amp;nbsp; Forum operation, location, and resources are intact.&amp;nbsp; For users and the community that has grown the Forums into a valuable resource, it seems nothing changed.&amp;nbsp; It wasn&amp;rsquo;t so simple.&amp;nbsp; Here&amp;rsquo;s what …&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;blockquote&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p align="left"&gt;&lt;em&gt;The &lt;a href="http://user.services.openoffice.org/" title="Link to the 10-language OpenOffice.org Community Forums"&gt;OpenOffice.org Community Forums&lt;/a&gt; have been successfully migrated to operation under the Apache OpenOffice.org podling.&amp;nbsp; Forum operation, location, and resources are intact.&amp;nbsp; For users and the community that has grown the Forums into a valuable resource, it seems nothing changed.&amp;nbsp; It wasn&amp;rsquo;t so simple.&amp;nbsp; Here&amp;rsquo;s what it took and what was gained.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 align="left" id="community-forums-on-the-move"&gt;&lt;em&gt;Community Forums on the move&lt;/em&gt;&lt;a class="headerlink" href="#community-forums-on-the-move" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;p align="left"&gt;Cut-over of the Community Forums completed on Friday morning, October 28.&amp;nbsp; There were few disruptions during Internet propagation of the new hosting-site location.&amp;nbsp; The migrated site is now accessed by the original web addresses.&amp;nbsp; A staging server holding the necessary software was tested using backups of the data from the Oracle-hosted Forum services.&amp;nbsp; Staging preparations started in July.&amp;nbsp; It was the first-ever introduction of a Forum system at Apache. The last backup of the &amp;ldquo;live Forums&amp;rdquo; happened on October 27.&amp;nbsp; The Forums backup was restored to the Apache staging system.&amp;nbsp; The new &amp;ldquo;live Forums&amp;rdquo; stepped in, just like the old Forums.&amp;nbsp; The transplant succeeded.&lt;/p&gt;
+&lt;p align="left"&gt;Adjustments will continue.&amp;nbsp; There will be alignment with remaining migrations of OpenOffice.org web properties.&amp;nbsp; There will be further&amp;nbsp; integration into the Apache OpenOffice.org podling operation.&amp;nbsp; Throughout remodeling, the Forums will be alive and well.&lt;/p&gt;
+&lt;h4 align="left" id="community-forums-legacy"&gt;&lt;em&gt;Community Forums legacy&lt;/em&gt;&lt;a class="headerlink" href="#community-forums-legacy" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;p align="left"&gt;The OpenOffice.org Community Forums originally went live on November 28, 2007.&amp;nbsp; By September 20, 2011, the &lt;a href="http://user.services.openoffice.org/en/forum/" title="Link to the main directory of the English-Language Forums"&gt;English-language Forums&lt;/a&gt; have accumulated 200,000 posts, contributed by 45,000 Forum registrants, on 40,000 topics (threads).&amp;nbsp;&amp;nbsp; At any point in time there appear to be 10-20 times as many unregistered users browsing the Forum as registered users.&amp;nbsp; The thrust is having a setting where users with questions find users with answers.&amp;nbsp; Experienced users also provide guidance to where the questions are already asked and either answered or under discussion.&amp;nbsp; The Forums are a customization of the phpBB software that is a prevalent implementation of &lt;a href="http://en.wikipedia.org/wiki/Internet_forum" title="Link to Wikipedia article on Internet Forums"&gt;Internet forums&lt;/a&gt;.&lt;/p&gt;
+&lt;p align="left"&gt;The Spanish and French forums are next in size and activity, with most other forums of intermediate size. The entire Forum base is preserved on-line.&amp;nbsp; Forum content is indexed by the major web search services.&amp;nbsp; &lt;/p&gt;
+&lt;h4 align="left" id="always-open-browsing-welcome"&gt;&lt;em&gt;Always open, browsing welcome&lt;/em&gt;&lt;a class="headerlink" href="#always-open-browsing-welcome" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;p align="left"&gt;Visiting any of the &lt;a href="http://user.services.openoffice.org/" title="Link to the list of different-language Forum entries"&gt;Forum entry pages&lt;/a&gt; and exploring any topic of interest reveals characteristic Forum features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;It is easy to see what the variety of topics and degree of activity has been in each subject area.&amp;nbsp; &lt;br/&gt; &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;Threads are organized and presented with recent, active topics located quickly; other viewing options, including of one's own posts, are selected with a single click.&lt;br/&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;There is integrated search for any topic and content. &lt;br/&gt; &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;Images and code samples can be included in posts and all can be quoted, cross-referenced, and reached via web locations.&lt;br/&gt; &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;The Forums provide links to extended topics on the Community Wiki, another migrated service.&lt;br/&gt; &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;There are tutorials on all components of the OpenOffice.org suite.&amp;nbsp; &lt;br/&gt; &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;Special topics include the programmability features of OpenOffice.org, including writing macros and using/creating extensions.&amp;nbsp; &lt;br/&gt; &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;The Forums embrace all of the descendants of the original StarOffice/OpenOffice.org that have become siblings in the OpenOffice.org galaxy.&amp;nbsp; Tips and solutions in the use of one release are often useful to users of a peer product having the same feature.&amp;nbsp; &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 align="left" id="supporting-global-community"&gt;&lt;em&gt;Supporting global community&lt;/em&gt;&lt;a class="headerlink" href="#supporting-global-community" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;p align="left"&gt;The forums were originated by a group of independent volunteers.&amp;nbsp; The entire content of the Forums is created and curated by individual users and volunteers.&amp;nbsp;&amp;nbsp; With migration, the volunteer structure is supplemented by arrangements for oversight as required by policies concerning properties in ASF custodianship.&amp;nbsp; Day-to-day operations and volunteer activities are unchanged.. &lt;/p&gt;
+&lt;p align="left"&gt;User peer-support grows by inviting frequent contributors to serve as volunteers.&amp;nbsp; Volunteers review Forum activity, point out where moderation is required, and participate in privacy-sensitive discussions about Forum operation.&amp;nbsp; More-experienced volunteer Moderators intervene where appropriate to provide special assistance or curate threads and subscriptions.&lt;/p&gt;
+&lt;p align="left"&gt;The OpenOffice.org Community Forums are one way that the Web connects users of OpenOffice.org-related products.&amp;nbsp; There are additional communities across the Internet with similar concerns as well as different specialties.&amp;nbsp; These can employ mailing lists, Internet news groups, and other web-based forums.&amp;nbsp; The Web and search engines bring the different resources of these communities into the reach of each other and users everywhere.&amp;nbsp;&amp;nbsp; The OpenOffice.org Community Forums are now continuing as a substantial resource of that extended community.&lt;/p&gt;
+&lt;h4 align="left" id="moving-complex-web-properties"&gt;&lt;em&gt;Moving complex web properties&lt;/em&gt;&lt;a class="headerlink" href="#moving-complex-web-properties" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;
+&lt;p align="left"&gt;The &lt;a href="http://openoffice.org" title="The OpenOffice.org web site"&gt;OpenOffice.org&lt;/a&gt; web site is a complex structure of services, web pages, and downloadable content. The &lt;font face="Courier New"&gt;openoffice.org&lt;/font&gt; Internet domain lease is moving as part of the grant from Oracle Corporation to the Apache Software Foundation (ASF). Migrating the various properties that constitute the web site is complicated. Considerable effort is required to have migration appear effortless and smooth.&lt;/p&gt;
+&lt;p align="left"&gt;Some services housed under the OpenOffice.org web locations are rather independent. Apparent integration as an OpenOffice.org web location is accomplished by splicing the service into an &lt;font face="Courier New"&gt;openoffice.org&lt;/font&gt; sub-domain. That is the case with &lt;a href="http://user.services.openoffice.org/"&gt;http://user.services.openoffice.org/&lt;/a&gt; and its ten native-language Community Forums. The English-language Forum location, &lt;a href="http://user.services.openoffice.org/en/forum/" title="http://user.services.openoffice.org/en/forum/"&gt;http://user.services.openoffice.org/en/forum/&lt;/a&gt;, illustrates the pattern for individual languages. There is also consistent appearance and other features that blend the forums into the overall OpenOffice.org site.&amp;nbsp; Maintaining this structure is important so that users can find materials where they recall them, including in bookmarks and links from other materials (including other forum posts).&amp;nbsp; Search services that have already indexed the forum pages will continue to refer seekers to those same still-correct locations.&lt;/p&gt;
+&lt;blockquote&gt;&lt;em&gt;&lt;font size="1"&gt;&lt;hr/&gt; &lt;/font&gt;&lt;/em&gt;
+&lt;p&gt;&lt;em&gt;&lt;font size="1"&gt;developed in &lt;/font&gt;&lt;/em&gt;&lt;a href="http://user.services.openoffice.org/en/forum/viewtopic.php?f=102&amp;amp;t=45267"&gt;&lt;em&gt;&lt;font size="1"&gt;Forum Discussion&lt;/font&gt;&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&lt;font size="1"&gt; collaboration among acknack, FJCC, floris v, Hagar Delest, kingfisher, mriisv, MrProgrammer, orcmid, RGB, RoryOF, and vasa1 on behalf of the Community Forum Volunteers, additional ooo-dev suggestions by Donald&amp;nbsp;Whytock and Dave Fisher.&lt;/font&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content><category term="blog"></category></entry><entry><title>Incubation, podling, IP Clearance, oh my!</title><link href="https://openoffice.apache.org/blog/what_is_a_podling.html" rel="alternate"></link><published>2011-10-18T20:10:51+00:00</published><updated>2011-10-18T20:10:51+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2011-10-18:/blog/what_is_a_podling.html</id><summary type="html">&lt;p&gt;&lt;a href="https://www.flickr.com/photos/floridamemory/3310996545/" title="Chicken eggs inside a chicken hatchery: Jacksonville Region, Florida by State Library and Archives of Florida, on Flickr"&gt;&lt;img alt="Chicken eggs inside a chicken hatchery: Jacksonville Region, Florida" height="500" src="https://farm4.static.flickr.com/3588/3310996545_44ea9f96fb.jpg" width="400"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="_1"&gt;&lt;font face="arial, helvetica, sans-serif"&gt;&lt;/font&gt;&lt;a class="headerlink" href="#_1" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&lt;hr/&gt;
+&lt;p&gt;The Apache OpenOffice.org project is currently in the incubation phase. We're a 'podling'. It's where all new Apache projects begin, regardless of
+how mature your source code base is. In this post I'll attempt to explain a bit about incubation, and a bit about the 'Apache Way', and our …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://www.flickr.com/photos/floridamemory/3310996545/" title="Chicken eggs inside a chicken hatchery: Jacksonville Region, Florida by State Library and Archives of Florida, on Flickr"&gt;&lt;img alt="Chicken eggs inside a chicken hatchery: Jacksonville Region, Florida" height="500" src="https://farm4.static.flickr.com/3588/3310996545_44ea9f96fb.jpg" width="400"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="_1"&gt;&lt;font face="arial, helvetica, sans-serif"&gt;&lt;/font&gt;&lt;a class="headerlink" href="#_1" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&lt;hr/&gt;
+&lt;p&gt;The Apache OpenOffice.org project is currently in the incubation phase. We're a 'podling'. It's where all new Apache projects begin, regardless of
+how mature your source code base is. In this post I'll attempt to explain a bit about incubation, and a bit about the 'Apache Way', and our current effort to meet the requirements for 3rd party code review and clearance. In future posts, I'll attempt to tackle other aspects of the project. If we all have a better understanding of how the work is becoming organized, those of you interested to volunteer will have a better idea of where to start, and those who are interested to follow our progress will have an easier way to check up on things.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;First off, a podling is not from
+'Invasion of the Body Snatchers' &amp;ndash; a human being wrapped up to look
+like a large vegetable, or furry cute puppets from the Dark Crystal
+Cave of Jim Henson's imagination. It's the term we use here at
+Apache to describe the first phase of a prospective project; a podling is a
+project that is 'incubating'. Egg,
+podling, new thing with promise needing special care and attention. I
+think you get the idea.&lt;/p&gt;
+&lt;p&gt;It's that special care and attention
+part that is consuming the efforts of the PPMC or "Podling Project
+Management Committee" at the moment. If we are going to hatch, 'graduate' to a TLP or "Top Level Project" in Apache-speak, we are required to meet certain criteria evolved out of deep experience accumulated through Apache's 12 year history and its involvement with many other successful projects.&lt;/p&gt;
+&lt;p&gt;Apache defines a podling as &amp;ldquo;A
+codebase and its community while in the process of being incubated.&amp;rdquo;
+You can find the details on the complete &lt;a href="http://incubator.apache.org/incubation/Incubation_Policy.html" title="Apache Incubation Policy"&gt;Apache Incubation Policy&lt;/a&gt; here.&lt;/p&gt;
+&lt;p&gt;OK, so we have the code base, thanks to
+Oracle's decision, and we have a community signed in to the project
+already, 75 committers and growing. So where are we with the  process?&lt;/p&gt;
+&lt;p&gt;When do podlings hatch, and become
+Apache TLP or Top Level Projects?&lt;/p&gt;
+&lt;p&gt;The abbreviated answer requires the
+podling to:&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deliver an official Apache release&lt;/li&gt;
+&lt;li&gt;Demonstrate you have successfully
+	created an open and diverse community&lt;/li&gt;
+&lt;li&gt;Follow the 'Apache Way' through
+	the process, documenting status, conducting ballots, maintaining a
+	fully open and transparent process, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;OpenOffice is a very large chunk of
+code, many millions of lines of code. The PPMC has now successfully
+migrated all the source files into the Apache infrastructure nestled
+into its new nest within the Apache Subversion repository
+environment. We've run a build test on Linux and we know we've got
+the code we need to begin to build a release. 
+&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;But wait, before we can meet the requirement of producing an official release, Apache requires that we conduct a thorough&amp;nbsp;&lt;a href="http://incubator.apache.org/ip-clearance/index.html" title="IP or Intellectual Property review and clearance process."&gt;IP or Intellectual Property review and clearance process&lt;/a&gt;. This means that the resulting Apache
+release may be licensed under the Apache License 2. It requires
+that all...&lt;/p&gt;
+&lt;blockquote class="webkit-indent-blockquote" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 40px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; "&gt;
+&lt;p&gt;&amp;ldquo;incoming code
+is fully signed off before any release. This simply reinforces the
+Apache requirements: all code must have appropriate licenses....The
+process of preparing an &lt;a href="http://incubator.apache.org/guides/releasemanagement.html#rules" title="Apache release"&gt;Apache release&lt;/a&gt; should include an audit of the code to
+ensure that all files have appropriate headers and that all
+dependencies complies with Apache policy.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This means that the resulting Apache
+OpenOffice release(s) will provide the maximum opportunity for the
+development of a broader spectrum of OpenOffice derivatives than we
+see today. The OpenOffice of the past, will look very different in
+the future as more developers become familiar with the code, and see
+new opportunities not previously available.&amp;nbsp;&lt;span style="font-family: arial, verdana, 'Bitstream Vera Sans', helvetica, sans-serif; font-size: 16px; font-weight: bold; "&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Right now, our
+immediate task is to resolve the licensing incompatibilities for 3&lt;sup&gt;rd&lt;/sup&gt;
+party code modules used by OpenOffice. Since Oracle did not possess
+the copyright for these modules, they were not included in the original Oracle Software Grant Agreement, and therefore we are working to either
+deprecate, or find a replacement that may be used either as a binary
+file or an alternative source file that fills the function needed.
+We're confident that the process will be concluded in the next weeks,
+but it is detail-oriented work, and must be done thoroughly and
+correctly in order to clear the path for an official podling release
+of Apache OpenOffice.&lt;/p&gt;
+&lt;p&gt;Before we can produce an Apache release, we must complete the code clearance step, ensuring that the license headers include License and Notification files for all
+artifacts in the build be done to the satisfaction of the PPMC
+and the Incubator PMC which governs the Apache OpenOffice podling. This will clear the way forward to develop a realistic target date for issuing our first 'Apache OpenOffice.org' release&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;In future posts, I'll sketch out
+how the project is being organized, mapping out the areas that offer
+interesting and exciting opportunities needing new volunteers to step
+up and take on. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;- Don Harbison, PPMC Member, Apache OpenOffice.org &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>「日本語メーリングリスト」 means "Japanese Mailing List"</title><link href="https://openoffice.apache.org/blog/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%A1%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%B9%E3%83%88_means_japanese_mailing_list.html" rel="alternate"></link><published>2011-10-14T00:07:53+00:00</published><updated>2011-10-14T00:07:53+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2011-10-14:/blog/日本語メーリングリスト_means_japanese_mailing_list.html</id><summary type="html">&lt;p&gt;I am testing if Japanese language can be shown up beautifully on Title and Content of this Apache Weblog.&lt;br/&gt;&lt;br/&gt;I am a moderator for the ooo-general-ja mailing list.&amp;nbsp; The day before yesterday I found that a moderator can remotely edit the text files that make up the responses the list …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I am testing if Japanese language can be shown up beautifully on Title and Content of this Apache Weblog.&lt;br/&gt;&lt;br/&gt;I am a moderator for the ooo-general-ja mailing list.&amp;nbsp; The day before yesterday I found that a moderator can remotely edit the text files that make up the responses the list sends out.&amp;nbsp; Then I started translating and editing them.&amp;nbsp; I have translated "top" and "bottom" messages.&lt;br/&gt;&lt;br/&gt;You know the "top" message.&amp;nbsp; It goes like:&lt;br/&gt;&lt;br/&gt;"Hi! This is the ezmlm program.&lt;br/&gt;I'm managing the &lt;a href="mailto:ooo-o-ooo@i.a.o"&gt;ooo-o-ooo@i.a.o&lt;/a&gt; mailing list.&lt;br/&gt;I'm working for my owner, who can be reached&lt;br/&gt;at &lt;a href="mailto:ooo-o-ooo-owner@i.a.o"&gt;ooo-o-ooo-owner@i.a.o&lt;/a&gt;."&lt;br/&gt;&lt;br/&gt;In Japanese it goes:&lt;br/&gt;&lt;br/&gt;「こんにちは。私は ezmlm というプログラムです。&lt;br/&gt;私は &lt;a href="mailto:ooo-o-ooo@i.a.o"&gt;ooo-o-ooo@i.a.o&lt;/a&gt; を管理しています。&lt;br/&gt;私はこのメーリングリストのオーナーのために&lt;br/&gt;働いています。オーナーの連絡先は次のとおりです。&lt;br/&gt;&amp;nbsp;&lt;a href="mailto:ooo-o-ooo-owner@i.a.o"&gt;ooo-o-ooo-owner@i.a.o&lt;/a&gt;.」&lt;br/&gt;&lt;br/&gt;I like the following part of the "bottom" message:&lt;br/&gt;&lt;br/&gt;"If despite following these instructions, you do not get the desired results, please contact my owner at &lt;a href="mailto:ooo-general-ja-owner@incubator.apache.org"&gt;ooo-general-ja-owner@incubator.apache.org&lt;/a&gt;. Please be patient, my owner is a lot slower than I am ;-)&lt;br/&gt;&lt;br/&gt;In Japanese:&lt;br/&gt;「ここに書かれた指示に従ったのにもかかわらず、望む結果が得られなかった場合は、&lt;a href="mailto:ooo-general-ja-owner@incubator.apache.org"&gt;ooo-general-ja-owner@incubator.apache.org&lt;/a&gt; にメールを送り、このメーリングリストのオーナーと連絡を取ってください。このメーリングリストのオーナーは人間なので私より反応に時間がかかると思いますが辛抱強くお待ちください ;-)&lt;br/&gt;&lt;br/&gt;We know ;-)&amp;nbsp; We have to be patient with human beings ;-)&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>The second Japanese language mailing list on Apache</title><link href="https://openoffice.apache.org/blog/the_second_japanese_language_mailing.html" rel="alternate"></link><published>2011-10-05T14:30:56+00:00</published><updated>2011-10-05T14:30:56+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2011-10-05:/blog/the_second_japanese_language_mailing.html</id><summary type="html">&lt;p&gt;I am a moderator for ooo-general-ja/AT/incubator.apache.org.&lt;/p&gt;
+&lt;p&gt;I have checked the mail archives on &lt;a href="http://mail-archives.apache.org"&gt;mail-archives.apache.org&lt;/a&gt; and found that there are 3 non-English language mailing list on &lt;a href="http://mail-archives.apache.org"&gt;mail-archives.apache.org&lt;/a&gt; such as &lt;a href="http://spamassassin.apache.org"&gt;dev-br/AT/spamassassin.apache.org,&lt;/a&gt; &lt;a href="http://spamassassin.apache.org"&gt;dev-de/AT/spamassassin.apache.org and axis-user-ja/AT/ws …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;I am a moderator for ooo-general-ja/AT/incubator.apache.org.&lt;/p&gt;
+&lt;p&gt;I have checked the mail archives on &lt;a href="http://mail-archives.apache.org"&gt;mail-archives.apache.org&lt;/a&gt; and found that there are 3 non-English language mailing list on &lt;a href="http://mail-archives.apache.org"&gt;mail-archives.apache.org&lt;/a&gt; such as &lt;a href="http://spamassassin.apache.org"&gt;dev-br/AT/spamassassin.apache.org,&lt;/a&gt; &lt;a href="http://spamassassin.apache.org"&gt;dev-de/AT/spamassassin.apache.org and axis-user-ja/AT/ws.apache.org.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maybe &lt;a href="mailto:axis-user-ja/AT/ws.apache.org"&gt;axis-user-ja/AT/ws.apache.org&lt;/a&gt; is the first Japanese language mailing list on Apache.&amp;nbsp; See one of posts from &lt;a href="http://mail-archives.apache.org/mod_mbox/ws-axis-user-ja/200412.mbox/date" title="Japanese post"&gt;this archive&lt;/a&gt;.&amp;nbsp; It's in Japanese encoded ISO-2022-JP but parts of it is garbled. It was posted on Wed. 01 Dec 2004 06:18:12 GMT.&lt;/p&gt;
+&lt;p&gt; 2 Japanese moderators and 2 Japanese volunteer testers are now testing ooo-general-ja/AT/incubator.apache.org.&lt;/p&gt;
+&lt;p&gt;I hope Japanese be no garbled :)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</content><category term="blog"></category></entry><entry><title>'Apache OpenOffice.org (incubating) Developer Education: Building on Linux'</title><link href="https://openoffice.apache.org/blog/apache_openoffice_org_developer_education.html" rel="alternate"></link><published>2011-09-01T22:41:22+00:00</published><updated>2011-09-01T22:41:22+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2011-09-01:/blog/apache_openoffice_org_developer_education.html</id><summary type="html">&lt;p&gt; &lt;/p&gt;
+&lt;div align="center"&gt;&lt;a href="https://www.flickr.com/photos/nationaalarchief/3915530627/" title="Openluchtschool in de vrieskou / Open-air school in the freezing cold by Nationaal Archief, on Flickr"&gt;&lt;img alt="Openluchtschool in de vrieskou / Open-air school in the freezing cold" height="309" src="https://farm3.static.flickr.com/2460/3915530627_442e19f997.jpg" width="500"/&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id="developer-education"&gt;&amp;nbsp;Developer Education&lt;br/&gt;&lt;a class="headerlink" href="#developer-education" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is September.&amp;nbsp; In the northern hemisphere it is time for cooler weather and time to go back to school.&amp;nbsp; The Apache OpenOffice.org podling is ready for the season with events to help developers learn more about OpenOffice.org.&amp;nbsp; &lt;/p&gt;
+&lt;p&gt;Do you want to learn how to build …&lt;/p&gt;</summary><content type="html">&lt;p&gt; &lt;/p&gt;
+&lt;div align="center"&gt;&lt;a href="https://www.flickr.com/photos/nationaalarchief/3915530627/" title="Openluchtschool in de vrieskou / Open-air school in the freezing cold by Nationaal Archief, on Flickr"&gt;&lt;img alt="Openluchtschool in de vrieskou / Open-air school in the freezing cold" height="309" src="https://farm3.static.flickr.com/2460/3915530627_442e19f997.jpg" width="500"/&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id="developer-education"&gt;&amp;nbsp;Developer Education&lt;br/&gt;&lt;a class="headerlink" href="#developer-education" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is September.&amp;nbsp; In the northern hemisphere it is time for cooler weather and time to go back to school.&amp;nbsp; The Apache OpenOffice.org podling is ready for the season with events to help developers learn more about OpenOffice.org.&amp;nbsp; &lt;/p&gt;
+&lt;p&gt;Do you want to learn how to build Apache OpenOffice.org on Linux?&amp;nbsp; Do you want to take the first steps towards becoming an OpenOffice hacker?&amp;nbsp; Do you want to help test, review and improve our build instructions, on any one of a variety of Linux distros?&amp;nbsp; If so, you will not want to miss this event.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Next week, from Wed September 7th through Saturday September 10th we will be making a concerted effort to enable everyone who wants to be able to build OpenOffice. This will be the first of a series of Developer Education topics we hope to deliver.&amp;nbsp; Others may include how to build on Windows and Mac, and how to work on particular OpenOffice features.&lt;/p&gt;
+&lt;p&gt;This will be a virtual event, with collaboration on the ooo-dev mailing list and on IRC.&amp;nbsp; Members of the OpenOffice.org podling will be on hand to help anyone who wishes to get started with OpenOffice development on Linux.&lt;/p&gt;
+&lt;h2 id="how-to-get-involved"&gt;&amp;nbsp;How to Get Involved&lt;br/&gt;&lt;a class="headerlink" href="#how-to-get-involved" title="Permalink"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are a few things you should do to prepare for this event:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Find a Linux machine, at least 1GB RAM and 75 GB free disk space&lt;/li&gt;
+&lt;li&gt;Run any updates needed to make your distro current&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://incubator.apache.org/openofficeorg/source.html"&gt;Download the latest source code&lt;/a&gt; for OpenOffice.org via Subversion.&lt;/li&gt;
+&lt;li&gt;Before Wednesday, &lt;a href="http://incubator.apache.org/openofficeorg/mailing-lists.html"&gt;sign up&lt;/a&gt; for the &lt;a href="mailto:ooo-dev@incubator.apache.org"&gt;ooo-dev@incubator.apache.org&lt;/a&gt;&amp;nbsp; mailing list.&lt;/li&gt;
+&lt;li&gt;Bookmark the &lt;a href="http://wiki.services.openoffice.org/wiki/Documentation/Building_Guide"&gt;OpenOffice.org Building Guide&lt;/a&gt;.&amp;nbsp; This is the documentation we'll be following, and correcting.&lt;/li&gt;
+&lt;li&gt;Starting on Wednesday, follow the discussions on the ooo-dev mailing list.&amp;nbsp; We'll use a subject tag of [LINUX-BUILD] for threads related to this event.&lt;/li&gt;
+&lt;li&gt;Also starting on Wednesday, join us on IRC: &lt;a href="http://irc.freenode.net"&gt;irc.freenode.net&lt;/a&gt;&amp;nbsp; on channel &lt;a class="external text" href="irc://irc.freenode.net/dev.openoffice.org" rel="nofollow" title="irc://irc.freenode.net/dev.openoffice.org"&gt;#dev.openoffice.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content><category term="blog"></category></entry><entry><title>OOo! There’s a New Podling in the Nursery Incubator</title><link href="https://openoffice.apache.org/blog/ooo_there_rsquo_s_a.html" rel="alternate"></link><published>2011-07-09T22:17:59+00:00</published><updated>2011-07-09T22:17:59+00:00</updated><author><name></name></author><id>tag:openoffice.apache.org,2011-07-09:/blog/ooo_there_rsquo_s_a.html</id><summary type="html">&lt;p&gt;The &lt;a href="http://incubator.apache.org/projects/openofficeorg.html"&gt;Apache OpenOffice.org (incubator)&lt;/a&gt; project was born on Monday, June 13, 2011.&amp;nbsp; Delivery was complicated.&amp;nbsp; The baby&amp;rsquo;s doing fine.&lt;/p&gt;
+&lt;p&gt;Following the &lt;a href="http://www.marketwire.com/press-release/statements-on-openofficeorg-contribution-to-apache-nasdaq-orcl-1521400.htm"&gt;June 1, 2011 announcement&lt;/a&gt; of the license grant from Oracle to the Apache Software foundation, there was extensive discussion over the proposal for acceptance of OpenOffice.org …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The &lt;a href="http://incubator.apache.org/projects/openofficeorg.html"&gt;Apache OpenOffice.org (incubator)&lt;/a&gt; project was born on Monday, June 13, 2011.&amp;nbsp; Delivery was complicated.&amp;nbsp; The baby&amp;rsquo;s doing fine.&lt;/p&gt;
+&lt;p&gt;Following the &lt;a href="http://www.marketwire.com/press-release/statements-on-openofficeorg-contribution-to-apache-nasdaq-orcl-1521400.htm"&gt;June 1, 2011 announcement&lt;/a&gt; of the license grant from Oracle to the Apache Software foundation, there was extensive discussion over the proposal for acceptance of OpenOffice.org as an Apache &lt;a href="http://incubator.apache.org/incubation/Incubation_Policy.html"&gt;incubator project&lt;/a&gt;.&amp;nbsp; Before the June 10 voting began, 207 edits had been made to the &lt;a href="http://wiki.apache.org/incubator/OpenOfficeProposal"&gt;proposal&lt;/a&gt;.&amp;nbsp; Discussion leading up to the vote swamped the &lt;a href="http://mail-archives.apache.org/mod_mbox/incubator-general/201106.mbox/date"&gt;public mailing list&lt;/a&gt; used for consideration and oversight of incubator projects.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re now taking the baby steps that will lead us to a healthy, thriving project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The open, public developers list, &lt;font face="Courier New"&gt;&lt;a href="http://mail-archives.apache.org/mod_mbox/incubator-ooo-dev/"&gt;ooo-dev&lt;/a&gt;&lt;/font&gt;, is operating and active.&amp;nbsp; Anyone can subscribe and post.&amp;nbsp; Anyone can access the archive.  &lt;/li&gt;
+&lt;li&gt;There is a fledgling &lt;a href="https://cwiki.apache.org/confluence/display/OOOUSERS/Wiki+Home"&gt;Community Wiki&lt;/a&gt;.&amp;nbsp; Anyone can subscribe and post.&amp;nbsp; Anyone can access the wiki.  &lt;/li&gt;
+&lt;li&gt;There is also a &lt;a href="https://cwiki.apache.org/confluence/display/OOODEV/Wiki+Home"&gt;Developer Wiki&lt;/a&gt;.&amp;nbsp; Contributions here are treated as deliverables of the project.&amp;nbsp; Anyone can access the wiki, but contributions to this wiki require submission of an &lt;a href="http://www.apache.org/licenses/#clas"&gt;Apache Contributor License Agreement&lt;/a&gt;.&amp;nbsp; Perhaps this wiki could have a better name?  &lt;/li&gt;
+&lt;li&gt;There is a &lt;a href="http://incubator.apache.org/openofficeorg/"&gt;project web site&lt;/a&gt;.&amp;nbsp; The content is rather thin at the moment.&amp;nbsp; It is growing.  &lt;/li&gt;
+&lt;li&gt;
+&lt;div align="left"&gt;There&amp;rsquo;s also &lt;a href="https://svn.apache.org/repos/asf/incubator/ooo/"&gt;a place&lt;/a&gt; in the &lt;a href="http://subversion.apache.org/"&gt;Apache Subversion&lt;/a&gt; repository for all of the source code.&amp;nbsp; At the moment that consists of tools and the project web site pages (created in &lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;).&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align="left"&gt;The gathering of contributors for the project is continuing.&amp;nbsp; In the status of many of the incubating podlings, you&amp;rsquo;ll find the OpenOffice.org &lt;a href="http://wiki.apache.org/incubator/July2011"&gt;podling&amp;rsquo;s first check-up&lt;/a&gt;.&amp;nbsp; (Scroll down through the alphabetical list.)&amp;nbsp; &lt;/p&gt;
+&lt;p align="left"&gt;There is more to do, especially around migration of the sites and their artifacts from their OpenOffice.org homes to their Apache counterparts.&amp;nbsp; There are more tasks to accomplish than the number already completed.&lt;/p&gt;
+&lt;p align="left"&gt;Everyone wants to know how soon there will be another OpenOffice.org release and how rapidly everything can be up and running.&amp;nbsp; So do we.&amp;nbsp; Apache OpenOffice.org will be different.&amp;nbsp; The differences may be unrecognizable, but they will be there.&amp;nbsp; Establishing what it takes to reach a sustainable, supported release process as an Apache project is where we first begin by crawling, next to walk, and then to run&lt;/p&gt;
+&lt;p align="left"&gt;This blog is a place for listening to the heartbeat and taking the pulse of the effort as it unfolds.&lt;/p&gt;
 </content><category term="blog"></category></entry></feed>
