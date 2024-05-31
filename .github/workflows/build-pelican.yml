@@ -7,15 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: apache/infrastructure-actions/pelican@main
+      - uses: sebbASF/infra-actions/pelican@main
         with:
           destination: 'asf-site-work2'
           gfm: 'true'
-          version: '4.7.0'
+          version: '4.5.4'
       - name: test
         run: |
+          python3 -V
+          pip list
           pelican --version
-          ls -la
-          ls -lR theme
-          git status
         if: always()
