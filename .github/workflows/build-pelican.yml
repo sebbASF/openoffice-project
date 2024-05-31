@@ -11,6 +11,7 @@ jobs:
         with:
           destination: 'asf-site-work2'
           gfm: 'true'
+          version: '4.8.0'
       - name: test
         run: |
           pelican --version
