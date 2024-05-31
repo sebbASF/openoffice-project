@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: apache/infrastructure-actions/pelican@main
-      # - uses: sebbASF/infra-actions/pelican@downdate
+      # - uses: apache/infrastructure-actions/pelican@main
+      - uses: sebbASF/infra-actions/pelican@downdate
         with:
           destination: 'asf-site-work'
           gfm: 'true'
