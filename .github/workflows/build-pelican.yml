@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: sebbASF/infra-actions/pelican@main
+      # - uses: sebbASF/infra-actions/pelican@main
+      - uses: apache/infrastructure-actions/pelican@noforce
         with:
           destination: 'asf-site-work2'
           gfm: 'true'
-          version: '4.5.4'
       - name: test
         run: |
           python3 -V
