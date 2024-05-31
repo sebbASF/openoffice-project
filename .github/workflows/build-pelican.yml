@@ -12,3 +12,4 @@ jobs:
         with:
           destination: 'asf-site-work2'
           gfm: 'true'
+          debug: 'true'
