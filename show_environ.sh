@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ls -lR __pycache__
+rm -rf __pycache__
 # set -x
 # export
 # pelican --version
