@@ -140,7 +140,7 @@
 </div>  </nav>
   <div id="contenta">
     <br/>
-    <h2 id="native-language-nl-websites">Native Language (NL) Websites<a class="headerlink" href="#native-language-nl-websites" title="Permalink">&para;</a></h2>
+    <h2>Native Language (NL) Websites</h2>
 <p>Apache OpenOffice supports users around the world via our many OpenOffice localizations, via
 native language mailing lists and support forums, and by translations of our website. This
 page describes the steps to create and maintain an NL website. Following these steps you
@@ -149,7 +149,7 @@ can create a website translation like our <a href="https://www.openoffice.org/es
 <p>Making updates to the Apache OpenOffice project's websites is simple. It's even easy
 for non-committers (new contributors - like you) to create a patch to request that
 pages are updated by the project community.</p>
-<h2 id="the-xx-website">The XX Website<a class="headerlink" href="#the-xx-website" title="Permalink">&para;</a></h2>
+<h2>The XX Website</h2>
 <p>The easiest way to get started is with the <a href="https://www.openoffice.org/xx/">XX website</a>.This
 website is a extract of the most-commonly visited pages from the English website, including:</p>
 <ul>
@@ -161,47 +161,43 @@ website is a extract of the most-commonly visited pages from the English website
 </ul>
 <p>Altogether, there are around 30 pages in the XX website. These are the ones that you will
 want to translate.</p>
-<h2 id="creating-the-test-directory">Creating the Test Directory<a class="headerlink" href="#creating-the-test-directory" title="Permalink">&para;</a></h2>
+<h2>Creating the Test Directory</h2>
 <p>In many cases there will already be an NL website for your language, but perhaps one that is
 badly out-of-date or is non-standard. However, until your new translation is ready to go it
 is probably best not to wipe out the existing NL page. So initially you will probably want
 to do your work in a test directory.</p>
 <p><strong>Let's take a concrete example:</strong>
-<br/>
+<br />
 Suppose your target language is Italian (it). You will want to do
 the following. If you are not a committer and are not familiar with Subversion then you
 will want to get help with these steps by asking on the mailing list.</p>
 <ol>
 <li>Make a copy (git clone) of the
-<a href="https://github.com/apache/openoffice-org/tree/main/content/xx/">ooo-site/main/content/xx directory</a>
-as ooo-site/main/content/my_test. In the copy replace all instances of "/xx" in paths,
-files and also within files with "/my_test". Then replace occurrences of "xx" with your language code (not "my_test")
-and rename the "msg_prop_l10n_xx.js" file to "msg_prop_l10n_&lt;lang_code&gt;.js"</li>
+   <a href="https://github.com/apache/openoffice-org/tree/main/content/xx/">ooo-site/main/content/xx directory</a>
+   as ooo-site/main/content/my_test. In the copy replace all instances of "/xx" in paths,
+   files and also within files with "/my_test". Then replace occurrences of "xx" with your language code (not "my_test")
+   and rename the "msg_prop_l10n_xx.js" file to "msg_prop_l10n_<lang_code>.js"</li>
 <li>Also make a clone of the
-<a href="https://github.com/apache/openoffice-org/tree/main/assets/xx/">ooo-site/main/assets/xx directory</a>
-and call the copy ooo-site/main/assets/my_test.</li>
+   <a href="https://github.com/apache/openoffice-org/tree/main/assets/xx/">ooo-site/main/assets/xx directory</a>
+   and call the copy ooo-site/main/assets/my_test.</li>
 <li>Commit these changes and publish via <a href="https://ci-builds.apache.org/job/OpenOffice/job/OpenOffice-org-Publish-Site/">Jenkins</a></li>
 <li>If you are a committer then you can translate the contents of the files in /my_test
-locally. If you are not a committer then ask someone to send a ZIP file of the contents.</li>
+   locally. If you are not a committer then ask someone to send a ZIP file of the contents.</li>
 </ol>
 <p><strong>Important:</strong>
-<br/>
+<br />
 In any case, the complete "/xx" directory and its files are used as a template.
 Please always copy it to a different location first before you start any editing!</p>
-<h2 id="translating-the-website">Translating the Website<a class="headerlink" href="#translating-the-website" title="Permalink">&para;</a></h2>
+<h2>Translating the Website</h2>
 <p>The files will be in two main formats:</p>
 <ol>
-<li>
-<p>HTML files.</p>
-</li>
-<li>
-<p>Markdown text files.
-<a href="https://daringfireball.net/projects/markdown/basics">Need to know more about Markdown Text?</a></p>
-<p>In your translation, do not change the file or directory names. Be careful to preserve
-the markup of the HTML and the indentation levels of the MDText files.</p>
-</li>
+<li>HTML files.</li>
+<li>Markdown text files.
+   <a href="https://daringfireball.net/projects/markdown/basics">Need to know more about Markdown Text?</a></li>
 </ol>
-<h2 id="the-template">The Template<a class="headerlink" href="#the-template" title="Permalink">&para;</a></h2>
+<p>In your translation, do not change the file or directory names. Be careful to preserve
+   the markup of the HTML and the indentation levels of the MDText files.</p>
+<h2>The Template</h2>
 <p>You will notice that there is more on the openoffice.org website than what you see in the
 /test-it content files. The content files give the central part of each page, but the
 header, footer as well as navigation menus are generated by the template. There are special
@@ -213,10 +209,11 @@ MDText files that you will need to translate for the template. They are:</p>
 <li>/xx/brand.mdtext</li>
 </ul>
 <p>For example, the /xx/topnav.mdtext has lines like this:</p>
-<pre><code>[Product][m0]
-[Download][m1]
-[Support][m2]
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="k">[Product][m0]</span>
+<span class="k">[Download][m1]</span>
+<span class="k">[Support][m2]</span>
+</code></pre></div>
+
 <p>Here you should translate the words "Product", "Download" and "Support". Also, at the
 bottom of the file you will see hyperlinks, which should not be changed, and text hints for
 the hyperlinks which should be translated.</p>
@@ -227,74 +224,74 @@ announcement url fields. These control the blue announcement that is the top of 
 website page. That should be translated and the URL changed if needed. For example, in a
 new release you would want to point to a translated version of the release notes, if they
 exist.</p>
-<h2 id="other-hints">Other Hints<a class="headerlink" href="#other-hints" title="Permalink">&para;</a></h2>
+<h2>Other Hints</h2>
 <p>A few other things to watch out for.</p>
 <ol>
 <li>Some files contain an Apache License header at the top of the page. You should not
-translate that.</li>
+   translate that.</li>
 <li>Some files contain comments. These don't need to be translated, but no harm is done if
-they are.</li>
+   they are.</li>
 <li>The /download/index.html requires special care since the language strings are stored in
-a the separate Javascript file "msg_prop_l10n_xx.js". The file "index.html" contains only
-the variables. Look for the further section if you need more help on this.</li>
+   a the separate Javascript file "msg_prop_l10n_xx.js". The file "index.html" contains only
+   the variables. Look for the further section if you need more help on this.</li>
 <li>It is easy to miss the social networking messages in /download/index.html.
-These are in the HTML header block and in function shareTwitter(). The string is something
-like "Join the OpenOffice revolution, the free office productivity suite with over 275
-million trusted downloads."
-You should translate these, but adapt if needed to keep the string within the 280 limit
-for Twitter.</li>
+   These are in the HTML header block and in function shareTwitter(). The string is something
+   like "Join the OpenOffice revolution, the free office productivity suite with over 275
+   million trusted downloads."
+   You should translate these, but adapt if needed to keep the string within the 280 limit
+   for Twitter.</li>
 </ol>
-<h2 id="how-to-find-the-right-text-for-the-file-at-the-right-place">How to find the right text for the file at the right place?<a class="headerlink" href="#how-to-find-the-right-text-for-the-file-at-the-right-place" title="Permalink">&para;</a></h2>
+<h2>How to find the right text for the file at the right place?</h2>
 <p>All texts, mouse over titles and link URLs that can be localized are collected in the
 "msg_prop_l10n_xx.js" files. The variables are named and sorted via the sections they are
 displayed in and have also comments to keep the overview.</p>
 <p><strong>Example:</strong>
-<br/>
+<br />
 // Extensions: Strings in the blue box (top) (used in "index.html").
-<br/>
+<br />
 Here the text for the headline in the blue box for the extensions is stored:
-<br/>
+<br />
 l10n.dl_ext_blue_box_headline_text = "Get Apache OpenOffice Extensions and Dictionaries";</p>
 <p>Please note that not all text is always displayed. Some are only shown in case of errors to
 handle a special behavior.</p>
 <p><strong>Example:</strong>
-<br/>
+<br />
 // Download: Strings for error text in the sub-red box (used in "download.js").
-<br/>
+<br />
 Here the text for the left download button is shown when the selected options do not lead to
 a correct download:
-<br/>
+<br />
 l10n.dl_full_link_error_text = "No full installation available";</p>
-<h2 id="you-can-see-the-variables-and-text-but-cannot-find-the-respective-files">You can see the variables and text but cannot find the respective file(s)?<a class="headerlink" href="#you-can-see-the-variables-and-text-but-cannot-find-the-respective-files" title="Permalink">&para;</a></h2>
+<h2>You can see the variables and text but cannot find the respective file(s)?</h2>
 <p>The "msg_prop_l10n_xx.js" files contains already a lot of strings. But it is maybe not
 wished to localize everything that is existing. So, we can keep the "/xx" example section
 small.</p>
 <p>For example, the following variables point to files that are not existing yet. You have to
 create them first:</p>
 <p>l10n.dl_analyze_headline_text = "How to report a broken download link?";
-<br/>
+<br />
 --&gt; "analyze.html"</p>
-<p>l10n.dl_help_link = "<a href="https://www.openoffice.org/download/full_vs_lp.html">https://www.openoffice.org/download/full_vs_lp.html</a>";
-<br/>
+<p>l10n.dl_help_link = "https://www.openoffice.org/download/full_vs_lp.html";
+<br />
 --&gt; "full_vs_lp.html"</p>
 <p>Also many links in the navigation bar refers to global webpages.</p>
-<h2 id="nl-specific-content">NL-Specific Content<a class="headerlink" href="#nl-specific-content" title="Permalink">&para;</a></h2>
+<h2>NL-Specific Content</h2>
 <p>It may be desired to add language-specific custom content to the website. For example:</p>
 <ul>
 <li>A localized Arabic website might want a special page dedicated to a description of how
-to use the bidirectional text features in OpenOffice. The Tamil website might want a page
-that links to a particular open source font download that is recommended.</li>
+  to use the bidirectional text features in OpenOffice. The Tamil website might want a page
+  that links to a particular open source font download that is recommended.</li>
 <li>There may be a local OpenOffice-related event that you want to publicize.</li>
 </ul>
 <p>New content pages can be added to your NL directory and links page from a navigator or
 from a news article on the home page as appropriate.</p>
-<h2 id="after-translation">After Translation<a class="headerlink" href="#after-translation" title="Permalink">&para;</a></h2>
+<h2>After Translation</h2>
 <p>Once your translation is done, you can check it in (if you are a committer) or ask someone
 to help you check it in and publish it to the website. Review the published pages to verify
 that the translation is as you want it, and that all links work. Once it is ready you can
 rename your "test" directory and make it the new NL website for your language!</p>
 <p><strong>Please Note:</strong>
-<br/>
+<br />
 If there is an existing NL website it is recommended that you do the switch
 over like this:</p>
 <ol>
@@ -306,19 +303,18 @@ over like this:</p>
 <p>This order is recommended, with the commit and publish after the deletion of the old
 directory due to a CMS build issue we've run into if all these steps are done together in
 a single commit.</p>
-<h2 id="maintaining-nl-websites">Maintaining NL Websites<a class="headerlink" href="#maintaining-nl-websites" title="Permalink">&para;</a></h2>
+<h2>Maintaining NL Websites</h2>
 <p>Do try to check your NL website every few weeks to see if any changes are needed. Try to
 keep it in sync with the English website. Is there a new announcement header? A new
 release? A new blog post?</p>
-<h2 id="you-got-stuck-and-need-help">You got stuck and need help?<a class="headerlink" href="#you-got-stuck-and-need-help" title="Permalink">&para;</a></h2>
-<p>You can always refer to the global webpages at "<a href="https://www.openoffice.org/">https://www.openoffice.org/</a>". The directory
+<h2>You got stuck and need help?</h2>
+<p>You can always refer to the global webpages at "https://www.openoffice.org/". The directory
 and file structure is the same.</p>
-<h2 id="you-need-a-helping-hand">You need a helping hand?<a class="headerlink" href="#you-need-a-helping-hand" title="Permalink">&para;</a></h2>
+<h2>You need a helping hand?</h2>
 <p>You can get in contact with us via the
 <a href="/mailing-lists.html#localization-mailing-list-public">L10N mailing list</a>.
 See the general explanation for
 <a href="/mailing-lists.html#using-mailing-lists">what a mailing list is</a>.</p>
-
   </div>
 
   <footer class="navbar-expand-lg navbar-light bg-light">
@@ -360,5 +356,5 @@ See the general explanation for
   <script src="/theme/js/popper.min.js"></script>
   <script src="/theme/js/bootstrap.min.js"></script>
   <!-- End the loading of javascript frameworks -->
-<!-- Source: pages/website-native.md; Template: page; Url: pages/website-native.html --></body>
+<!-- Source: pages/website-native.md; Template: page; Url: pages/how-to-edit-the-native-language-nl-websites.html --></body>
 </html>
